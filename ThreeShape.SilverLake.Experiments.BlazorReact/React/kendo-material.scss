@@ -1,0 +1,286 @@
+﻿@import './variables.scss';
+
+.k-block ::selection, .k-panel ::selection, .k-widget ::selection {
+    background-color: $primary;
+    color: #fff;
+}
+
+.k-loading-image::before, .k-loading-image::after {
+    display: none;
+}
+
+.k-autocomplete, .k-dateinput-wrap, .k-dropdown-wrap, .k-picker-wrap, .k-multiselect-wrap, .k-numeric-wrap {
+    font-size: $font-size;
+}
+
+ul.k-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.k-menu {
+    > .k-item {
+        + .k-item {
+            &.green-button, &.green-outline-button {
+                margin-left: 5px;
+            }
+        }
+
+        &.green-button {
+            background-color: $primary;
+            border-radius: 4px;
+            margin-left: 5px;
+
+            span {
+                color: white;
+            }
+        }
+
+        &.green-outline-button {
+            * {
+                color: $primary;
+            }
+
+            border-radius: 4px;
+            background-color: white;
+            border: 1px solid $primary;
+            margin-left: 5px;
+        }
+    }
+
+    .k-menu-group {
+        .k-item {
+            &:hover {
+                background-color: $lsBlue;
+                color: white;
+            }
+        }
+    }
+}
+
+.k-button {
+    text-transform: none !important;
+
+    &.green-button {
+        * {
+            color: white;
+        }
+
+        background: $primary !important;
+        border-radius: 4px;
+        margin-left: 5px;
+        color: white;
+    }
+
+    &.red-button, &.secondary {
+        * {
+            color: white;
+        }
+
+        background-color: $secondary !important;
+        border-radius: 4px;
+        margin-left: 5px;
+        color: white !important;
+    }
+
+    &.green-outline-button {
+        * {
+            color: $primary;
+        }
+
+        color: $primary;
+        border-radius: 4px;
+        background-color: white;
+        border: 1px solid $primary;
+        margin-left: 5px;
+    }
+
+    &.transparent-button {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.k-list-container {
+    .k-list {
+        .k-item {
+            &:hover, &.k-state-selected, &:focus, &.k-state-focused {
+                &.k-state-selected, &.k-state-focused {
+                    background-color: $lsBlue;
+                    color: white;
+                }
+
+                background-color: $lsBlue;
+                color: white;
+            }
+        }
+    }
+}
+
+.k-list-container {
+    .k-list {
+        .k-item.k-state-focused.k-state-focused {
+            background-color: white;
+            color: inherit;
+
+            &:hover {
+                background-color: $lsBlue;
+                color: white;
+            }
+        }
+    }
+}
+
+.k-textbox {
+    text-indent: .8em;
+
+    &textarea {
+        min-height: 100px;
+        width: 100%;
+        padding-left: 12px;
+        padding-top: 7px;
+    }
+}
+
+
+.k-grid {
+    th, td {
+        padding: .5em 8px .4em;
+    }
+
+    border-color: transparent;
+    border: none;
+
+    .k-grid-header {
+        &div {
+            border: none;
+        }
+
+        background-color: transparent;
+        background-color: $table-color-light-grey;
+        border: none;
+
+        th.k-header:not(.k-widget) {
+            background-color: transparent;
+            border-color: transparent;
+            font-size: 0.8em;
+            border-width: 0 0 1px 0px;
+            vertical-align: middle;
+            color: $font-color-title;
+            height: 30px;
+            border: none;
+
+            &:first-child {
+                /*padding-left: 20px;*/
+            }
+
+            .k-link {
+                color: $font-color-title;
+            }
+        }
+
+        .k-link:link {
+            color: $font-color-title;
+        }
+    }
+
+    .k-master-row {
+        > td {
+            background-color: white;
+            border-bottom: 1px solid $border-color-grid-row;
+            height: 50px;
+            padding: 1px 8.4px;
+        }
+    }
+}
+
+.k-icon {
+    &.grey {
+        color: $lsTextGrey;
+        line-height: $font-size;
+        vertical-align: middle;
+    }
+}
+
+.k-window {
+    &.k-widget {
+        /*override inline styles*/
+        // padding-top: 40px !important;
+        .k-window-titlebar {
+            padding-bottom: 15px !important;
+            padding-top: 10px !important;
+
+            .k-window-title {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .k-overlay {
+        opacity: 0.50;
+    }
+}
+
+.k-notification {
+    width: 100%;
+    text-align: center;
+
+    * {
+        font-size: $font-size;
+    }
+
+    .k-icon {
+        display: none;
+
+        &.k-i-close {
+            display: inline-block;
+        }
+    }
+}
+
+.k-tooltip {
+    background-color: #FFF;
+    color: $base-text;
+
+    &:not(.k-tooltip-closable) {
+        font-size: $font-size;
+    }
+
+    &.k-widget {
+        margin-top: 10px;
+        background-color: #FFF;
+        color: $base-text;
+
+        .k-tooltip-content {
+            padding: 5px;
+        }
+
+        .k-callout-n {
+            border-bottom-color: #FFF;
+        }
+    }
+
+    .k-tooltip-content {
+        background-color: #FFF;
+        padding: 5px;
+    }
+
+    .k-callout, .k-callout-n {
+        border-bottom-color: #FFF;
+    }
+}
+
+.k-radio + .k-radio-label::before {
+    border-color: $lsBlankGrey;
+}
+
+.k-radio-label {
+    min-height: 18px;
+}
+
+.k-button {
+    &.k-primary {
+        box-shadow: none;
+    }
+}

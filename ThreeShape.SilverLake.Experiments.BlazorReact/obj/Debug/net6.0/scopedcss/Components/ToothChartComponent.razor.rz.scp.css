@@ -1,0 +1,21 @@
+.tooth_wrapper[b-dxr2utcmmx] {
+    fill: var(--ls-gray);
+    color: black;
+}
+
+.tooth_number[b-dxr2utcmmx] {
+    fill: darkgrey;
+    font-size: 1.5em;
+}
+
+.tooth_wrapper.crown > path[b-dxr2utcmmx] {
+    fill: var(--ls-blue);
+}
+
+.tooth_wrapper.type_implant > path[b-dxr2utcmmx] {
+    fill: var(--ls-purple);
+}
+
+.tooth_wrapper.crown > text[b-dxr2utcmmx], .tooth_wrapper.type_implant > text[b-dxr2utcmmx] {
+    fill: white;
+}

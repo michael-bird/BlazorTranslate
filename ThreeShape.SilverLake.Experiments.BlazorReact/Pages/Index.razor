@@ -1,0 +1,29 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<MudCard Style="margin-bottom:1rem" Outlined="true">
+    <MudCardContent>
+        <MudText Typo="Typo.h4" Style="margin-bottom:1rem;">NG frontend in iframe</MudText>
+        <MudButton @onclick="OpenDialog" Variant="Variant.Filled" Color="Color.Primary">
+            Open NG Dialog
+        </MudButton>
+    </MudCardContent>
+</MudCard>
+
+<MudCard Style="margin-bottom:1rem" Outlined="true">
+    <MudCardContent>
+        <MudText Typo="Typo.h4" Style="margin-bottom:1rem;">Embedded React</MudText>
+        <div @ref="_react">this is where react should be</div>
+    </MudCardContent>
+</MudCard>
+
+<MudCard Style="margin-bottom:1rem" Outlined="true">
+    <MudCardContent>
+        <MudText Typo="Typo.h4" Style="margin-bottom:1rem;">Blazor Components</MudText>
+        <MudText Typo="Typo.h5" Style="margin-bottom:1rem;">Using node services and blazor component library with material design</MudText>
+        <DoctorSelectorComponent />
+        <MudText Typo="Typo.h5" Style="margin-bottom:1rem;">Custom tooth selector</MudText>
+        <ToothChartComponent />
+    </MudCardContent>
+</MudCard>

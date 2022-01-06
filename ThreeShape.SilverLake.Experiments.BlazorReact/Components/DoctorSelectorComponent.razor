@@ -1,0 +1,12 @@
+﻿<div class="doctor_selector_component">
+<MudCard Style="margin-bottom:1rem" Outlined="true">
+    <MudCardContent>
+        <MudAutocomplete T="Doctor" Label="Doctor/Lab" @bind-Value="value" SearchFunc="@Search"
+            ResetValueOnEmptyText="true"
+            CoerceText="true" CoerceValue="true"
+            ToStringFunc="@(e=> e==null?null : $"{e.Name}")"
+            Clearable="true"
+            Style="width:30%"/>
+    </MudCardContent>
+</MudCard>
+</div>
