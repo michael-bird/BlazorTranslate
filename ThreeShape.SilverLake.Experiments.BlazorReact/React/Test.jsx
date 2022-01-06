@@ -2,31 +2,11 @@
 import ReactDOM from 'react-dom'
 import ComboBox from './ComboBox'
 
-const toothStuff = [
-    {
-        text: "Crown",
-        id: 1,
-    },
-    {
-        text: "Bridge",
-        id: 2,
-    },
-    {
-        text: "Additional",
-        id: 3,
-    },
-    {
-        text: "Implant",
-        id: 4,
-    },
-    {
-        text: "Coping",
-        id: 5,
-    },
-];
-
-export default function renderHello(element) {
-    ReactDOM.render(<ComboBox data={toothStuff} textField="text" />, element);
+export default function renderHello(element, serialisedItems) {
+    console.log(serialisedItems);
+    const items = JSON.parse(serialisedItems);
+    console.log(items);
+    ReactDOM.render(<ComboBox data={items} textField="Name" />, element);
 }
 
 window.renderReact = renderHello;
