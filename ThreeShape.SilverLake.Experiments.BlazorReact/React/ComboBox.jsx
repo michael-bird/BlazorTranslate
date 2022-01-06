@@ -11,7 +11,12 @@ const ComboBox = props => (
         popupSettings={{
             className: 'dropdown-popup',
         }}
+        onChange={(e) => onChange(props.dotNetHelper, e)}
     />
 );
+
+const onChange = (dotNetHelper, e) => {
+    dotNetHelper.invokeMethodAsync('SetSelected', e.target.value.Name);
+};
 
 export default ComboBox;

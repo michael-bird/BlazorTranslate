@@ -17,8 +17,20 @@ namespace ThreeShape.SilverLake.Experiments.BlazorReact.Pages
 
         private ElementReference _react;
 
+        private DotNetObjectReference<Index>? objRef;
+
+        private string _selectedItem;
+
+        protected override async Task OnInitializedAsync()
+        {
+            _selectedItem = "Select an item using component and it will send selection back to dotNet and render it here.";
+        }
+
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
+            //Pass down to react component so it can call dotNet JSInvokable functions in this component
+            objRef = DotNetObjectReference.Create(this);
+
             var items = new List<ToothProduct>
             {
                 new ToothProduct{ Id= 1, Name = "Crown"},
@@ -31,7 +43,14 @@ namespace ThreeShape.SilverLake.Experiments.BlazorReact.Pages
 
             var serialisedItems = JsonConvert.SerializeObject(items);
 
-            if (firstRender) await JsRuntime.InvokeVoidAsync("renderReact", _react, serialisedItems);
+            if (firstRender) await JsRuntime.InvokeVoidAsync("renderReact", objRef, _react, serialisedItems);
+        }
+
+        [JSInvokable("SetSelected")]
+        public void SetSelectedItem( string item)
+        {
+            _selectedItem = item;
+            StateHasChanged();
         }
 
         private void OpenDialog()
