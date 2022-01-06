@@ -26,7 +26,7 @@ namespace ThreeShape.SilverLake.Experiments.BlazorReact.Pages
                 new ToothProduct{ Id= 3, Name = "Additional"},
                 new ToothProduct{ Id= 4, Name = "Implant"},
                 new ToothProduct{ Id= 5, Name = "Coping"},
-                new ToothProduct{ Id= 5, Name = "Multi-Crown"},
+                new ToothProduct{ Id= 6, Name = "Multi-Crown"},
             };
 
             var serialisedItems = JsonConvert.SerializeObject(items);
