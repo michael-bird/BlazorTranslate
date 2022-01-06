@@ -8,7 +8,7 @@ namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
     {
         [Inject] LabstarService _labstarService { get; set; }
 
-        private Doctor value;
+        private Doctor selectedDoctor;
 
         private IEnumerable<Doctor> Doctors;
 
@@ -28,6 +28,8 @@ namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
         private async Task<IEnumerable<Doctor>> Search(string value)
         {
             if (string.IsNullOrEmpty(value) && Doctors.Any())
+                return Doctors;
+            if (value.Equals(selectedDoctor.Name) && Doctors.Any())
                 return Doctors;
             return Doctors.Where(x => x.Name.Contains(value, StringComparison.InvariantCultureIgnoreCase)) ?? Enumerable.Empty<Doctor>();
 

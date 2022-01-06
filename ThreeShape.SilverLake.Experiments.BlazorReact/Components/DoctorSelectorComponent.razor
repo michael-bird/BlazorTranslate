@@ -1,7 +1,7 @@
 ﻿<div class="doctor_selector_component">
 <MudCard Style="margin-bottom:1rem" Outlined="true">
     <MudCardContent>
-        <MudAutocomplete T="Doctor" Label="Doctor/Lab" @bind-Value="value" SearchFunc="@Search"
+        <MudAutocomplete T="Doctor" Label="Doctor/Lab" @bind-Value="selectedDoctor" SearchFunc="@Search"
             ResetValueOnEmptyText="true"
             CoerceText="true" CoerceValue="true"
             ToStringFunc="@(e=> e==null?null : $"{e.Name}")"
