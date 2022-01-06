@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj": {}
+    "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj": {}
   },
   "projects": {
-    "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj": {
+    "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
+        "projectUniqueName": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
         "projectName": "ThreeShape.SilverLake.Experiments.BlazorReact",
-        "projectPath": "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
+        "projectPath": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
         "packagesPath": "C:\\Users\\Michael Bird\\.nuget\\packages\\",
-        "outputPath": "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\obj\\",
+        "outputPath": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

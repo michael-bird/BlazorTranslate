@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XmjHV0rjXcz+ttdKmRQ291eotUzCzzeXghR3anwvYjtzwFDtn+raCHXudGNV2TU1mo2XcnUoKv70CWdm0mLWUg==",
+  "dgSpecHash": "kWi0YdXPM/NG6pU7rHCrG+lnBT0dY8z3WYGPKEqWqqAoIxc8MA32dt0/OGpEhp2ZBp4MbzvABER7TUrhqCexRA==",
   "success": true,
-  "projectFilePath": "C:\\Test\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
+  "projectFilePath": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.BlazorReact\\ThreeShape.SilverLake.Experiments.BlazorReact.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael Bird\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\Michael Bird\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",
