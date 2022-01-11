@@ -10,8 +10,7 @@ This project explores various ways of implementing the NG components into a Blaz
  - Embedded within Blazor application
  - Recreated as Blazor components
 
-> **Note:** This project requires node.js be installed
-> **Note:** You must also have your local Silverlake environment up and running
+> **Note:** This project requires node.js be installed. You must also have your local Silverlake environment up and running
 
 One of the scripts also requires the following package:
 ````
