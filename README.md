@@ -20,7 +20,7 @@ npm install --global del-cli
 
 ## Getting started
 
- - Start the node.js services in your local environment. 
+ - Start the node.js services in your local environment. For the iframe to work you will need to wait for the frontend to be packed which can take up to 5 minutes.
  - Run the Application - It should use webpack to bundle the JS and SCSS files.
  - This application communicates with the services over port: 3000 - If you
    have changed this you will need to update Services/LabstarService.cs.
