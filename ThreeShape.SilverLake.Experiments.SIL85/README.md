@@ -1,7 +1,3 @@
-# ThreeShape.SilverLake.Experiments
-
-Various prototype, proof-of-concept, and experimentation code for Silver Lake
-
 # ThreeShape.SilverLake.Experiments.SIL85.BlazorReact
 
 This project explores various ways of implementing the NG components into a Blazor application.
