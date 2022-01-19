@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "ThreeShape.SilverLake.Experiments.BlazorReact": {
+    "ThreeShape.SilverLake.Experiments.SIL85.BlazorReact": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

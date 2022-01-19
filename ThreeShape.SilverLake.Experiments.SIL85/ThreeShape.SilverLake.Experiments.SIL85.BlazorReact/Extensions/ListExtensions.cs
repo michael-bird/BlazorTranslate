@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Extensions
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Extensions
 {
     public static class ListExtensions
     {

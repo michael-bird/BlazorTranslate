@@ -1,6 +1,6 @@
-﻿using ThreeShape.SilverLake.Experiments.BlazorReact.Extensions;
+﻿using ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Extensions;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Components
 {
     public partial class ToothChartComponent
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
-using ThreeShape.SilverLake.Experiments.BlazorReact.Models;
-using ThreeShape.SilverLake.Experiments.BlazorReact.Services;
+using ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Models;
+using ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Services;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Components
 {
     public partial class DoctorSelectorComponent
     {

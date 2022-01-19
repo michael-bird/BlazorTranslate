@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 **/node_modules
-ThreeShape.SilverLake.Experiments.BlazorReact/wwwroot/scripts/app.js
-ThreeShape.SilverLake.Experiments.BlazorReact/wwwroot/scripts/app.js.LICENSE.txt
+ThreeShape.SilverLake.Experiments.SIL85.BlazorReact/wwwroot/scripts/app.js
+ThreeShape.SilverLake.Experiments.SIL85.BlazorReact/wwwroot/scripts/app.js.LICENSE.txt
