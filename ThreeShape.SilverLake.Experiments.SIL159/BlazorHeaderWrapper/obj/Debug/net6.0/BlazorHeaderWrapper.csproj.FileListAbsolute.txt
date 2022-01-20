@@ -811,3 +811,6 @@ C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL
 C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\BlazorHeaderWrapper.dll
 C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\ref\BlazorHeaderWrapper.dll
 C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\BlazorHeaderWrapper.pdb
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\BlazorHeaderWrapper.csproj.AssemblyReference.cache
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\BlazorHeaderWrapper\obj\Debug\net6.0\scopedcss\Shared\Footer.razor.rz.scp.css

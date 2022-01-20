@@ -1,0 +1,17 @@
+.footer[b-l5k6el944g] {
+    background: var(--ls-gray);
+}
+
+.footer-list[b-l5k6el944g]{
+    margin: 0;
+}
+
+.footer-container[b-l5k6el944g]{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.list-inline-item[b-l5k6el944g] {
+    font-weight: bold;
+    color: var(--ls-dark-gray);
+    font-size: 0.8rem;
+}

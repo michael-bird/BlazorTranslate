@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Pfbz6mx88ouiJMh0wVVzY8QhRPZAOKrH/Tjf3PpxMI=",
+  "Hash": "u0zG08pMKpT84QNRdWb6WwsVLqrKSDKGCHMlu3R8apE=",
   "Source": "BlazorHeaderWrapper",
   "BasePath": "/",
   "Mode": "Root",
@@ -7070,6 +7070,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.SIL159\\BlazorHeaderWrapper\\wwwroot\\images\\nav.png",
+      "SourceId": "BlazorHeaderWrapper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.SIL159\\BlazorHeaderWrapper\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/nav.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nav.png"
     },
     {
       "Identity": "C:\\Repos\\ThreeShape.SilverLake.Experiments\\ThreeShape.SilverLake.Experiments.SIL159\\BlazorHeaderWrapper\\wwwroot\\index.html",

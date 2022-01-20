@@ -1,5 +1,13 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+:root {
+    --ls-gray: #e8e8e8;
+    --ls-blue: #3A88D7;
+    --ls-purple: #7F69FF;
+    --ls-light-gray: #FAFAFA;
+    --ls-dark-gray: #535353;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -19,36 +27,8 @@ a, .btn-link {
 }
 
 .content {
-    padding-top: 1.1rem;
+    padding-top: 4.5rem;
 }
-
-.nav-item a {
-    color: #d7d7d7;
-    border-radius: 4px;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    line-height: 3rem;
-}
-
-    .nav-item a.active {
-        background-color: rgba(255,255,255,0.25);
-        color: white;
-    }
-
-    .nav-item a:hover {
-        background-color: rgba(255,255,255,0.1);
-        color: white;
-    }
-
-.content {
-    padding-top: 1.1rem;
-}
-
-.navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
@@ -90,3 +70,19 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 55%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

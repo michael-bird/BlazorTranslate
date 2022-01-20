@@ -1,3 +1,21 @@
+/* /Shared/Footer.razor.rz.scp.css */
+.footer[b-l5k6el944g] {
+    background: var(--ls-gray);
+}
+
+.footer-list[b-l5k6el944g]{
+    margin: 0;
+}
+
+.footer-container[b-l5k6el944g]{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.list-inline-item[b-l5k6el944g] {
+    font-weight: bold;
+    color: var(--ls-dark-gray);
+    font-size: 0.8rem;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-kx57jx1i04] {
     position: relative;
@@ -79,4 +97,31 @@ main[b-kx57jx1i04] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.nav-item a[b-z97a4v8k2d] {
+    color: var(--ls-dark-gray) !important;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+    .nav-item a.active[b-z97a4v8k2d] {
+        background-color: rgba(255,255,255,0.25);
+        color: white;
+    }
+
+    .nav-item a:hover[b-z97a4v8k2d] {
+        background-color: rgba(255,255,255,0.1);
+        color: white;
+    }
+
+.navbar-toggler[b-z97a4v8k2d] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-dark[b-z97a4v8k2d] {
+    background-color: var(--ls-gray) !important;
 }
