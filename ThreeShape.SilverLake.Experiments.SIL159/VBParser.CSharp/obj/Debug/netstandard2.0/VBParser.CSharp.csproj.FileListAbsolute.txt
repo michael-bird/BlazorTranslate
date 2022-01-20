@@ -1,0 +1,12 @@
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\bin\Debug\netstandard2.0\VBParser.CSharp.deps.json
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\bin\Debug\netstandard2.0\VBParser.CSharp.dll
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\bin\Debug\netstandard2.0\VBParser.CSharp.pdb
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.csproj.AssemblyReference.cache
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\Dlrsoft.VBScript.Parser.Properties.Microsoft.VisualBasic.resources
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.csproj.GenerateResource.cache
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.AssemblyInfoInputs.cache
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.AssemblyInfo.cs
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.csproj.CoreCompileInputs.cache
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.dll
+C:\Repos\ThreeShape.SilverLake.Experiments\ThreeShape.SilverLake.Experiments.SIL159\VBParser.CSharp\obj\Debug\netstandard2.0\VBParser.CSharp.pdb
