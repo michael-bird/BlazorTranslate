@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Components
 {
     public partial class CaseEntryDialogComponent
     {

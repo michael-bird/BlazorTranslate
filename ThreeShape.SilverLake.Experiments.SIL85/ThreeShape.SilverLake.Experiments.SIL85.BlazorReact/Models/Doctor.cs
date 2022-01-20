@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Models
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Models
 {
     public class Doctor
     {

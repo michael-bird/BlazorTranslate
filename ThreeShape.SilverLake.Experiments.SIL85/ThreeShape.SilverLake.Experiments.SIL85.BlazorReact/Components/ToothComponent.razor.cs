@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Components
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Components
 {
     public partial class ToothComponent
     {

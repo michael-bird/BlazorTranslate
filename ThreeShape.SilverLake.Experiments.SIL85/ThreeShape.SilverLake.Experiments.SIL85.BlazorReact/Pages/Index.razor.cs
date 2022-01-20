@@ -2,10 +2,10 @@
 using Microsoft.JSInterop;
 using MudBlazor;
 using Newtonsoft.Json;
-using ThreeShape.SilverLake.Experiments.BlazorReact.Components;
-using ThreeShape.SilverLake.Experiments.BlazorReact.Models;
+using ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Components;
+using ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Models;
 
-namespace ThreeShape.SilverLake.Experiments.BlazorReact.Pages
+namespace ThreeShape.SilverLake.Experiments.SIL85.BlazorReact.Pages
 {
     public partial class Index
     {
