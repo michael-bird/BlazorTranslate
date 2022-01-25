@@ -27,7 +27,8 @@ a, .btn-link {
 }
 
 .content {
-    padding-top: 4.5rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -75,7 +76,7 @@ a, .btn-link {
 .resp-container {
     position: relative;
     overflow: hidden;
-    padding-top: 55%;
+    padding-top: 56.25%;
 }
 
 .resp-iframe {

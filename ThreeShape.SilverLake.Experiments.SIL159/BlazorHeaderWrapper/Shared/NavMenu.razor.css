@@ -1,10 +1,12 @@
 ﻿.nav-item a {
     color: var(--ls-dark-gray) !important;
+    font-weight: bold;
     border-radius: 4px;
     height: 3rem;
     display: flex;
     align-items: center;
     line-height: 3rem;
+    font-size: 0.8rem;
 }
 
     .nav-item a.active {

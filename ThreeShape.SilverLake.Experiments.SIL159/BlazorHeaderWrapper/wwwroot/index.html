@@ -9,6 +9,7 @@
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="BlazorHeaderWrapper.styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,6 +21,16 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.addEventListener('message', event => {
+            if (event.origin.startsWith('https://preview-ng.labstar.com:8100')) {
+                console.log('message received');
+                console.log(event.data);
+            }
+
+            return;
+        });
+    </script>
 </body>
 
 </html>
