@@ -26,11 +26,6 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-.content {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-}
-
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
@@ -72,18 +67,23 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
-
-.resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
+html, body, #app, .content, .iframe-container {
+    height: 100%
 }
 
-.resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.content {
+    padding-top: 4rem;
+}
+
+.iframe-container {
+    display: flex;
     width: 100%;
-    height: 100%;
-    border: 0;
+    flex-direction: column;
 }
+
+    .iframe-container iframe {
+        border: 0;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+    }
