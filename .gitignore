@@ -2,9 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ThreeShape.SilverLake.Experiments.TestAutomation/ThreeShape.SilverLake.Experiments.TestAutomation/obj
-/ThreeShape.SilverLake.Experiments.TestAutomation/ThreeShape.SilverLake.Experiments.TestAutomation/bin/Debug/net6.0
-/ThreeShape.SilverLake.Experiments.TestAutomation/ThreeShape.SilverLake.Experiments.TestAutomation/.vs/ThreeShape.SilverLake.Experiments.TestAutomation/v17
-*.suo
-/.vs/Git_SilverLakeExperiments/v17/TestStore/0
 /.vs
+/ThreeShape.SilverLake.Experiments.SIL165/.vs/ThreeShape.SilverLake.Experiments.SIL165
+/ThreeShape.SilverLake.Experiments.SIL165/ThreeShape.SilverLake.Experiments.SIL165/bin/Debug/net6.0
+/ThreeShape.SilverLake.Experiments.SIL165/ThreeShape.SilverLake.Experiments.SIL165/obj
