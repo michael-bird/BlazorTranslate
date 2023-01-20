@@ -1,0 +1,8 @@
+﻿<div class=form-group>
+    <select class="form-control" @bind="Culture" id="cultureSelect">
+        @foreach (var culture in supportedCultures)
+        {
+            <option value="@culture">@culture.DisplayName</option>
+        }
+    </select>
+</div>

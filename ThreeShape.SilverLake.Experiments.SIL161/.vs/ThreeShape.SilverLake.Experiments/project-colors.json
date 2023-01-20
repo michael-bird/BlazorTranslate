@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "20ab54a2-afff-4fec-8b6c-bd7ae41350cd": {
+      "ProjectGuid": "20ab54a2-afff-4fec-8b6c-bd7ae41350cd",
+      "DisplayName": "ThreeShape.SilverLake.Experiments.Mvc",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
