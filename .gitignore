@@ -1,8 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs
-/ThreeShape.SilverLake.Experiments.SIL165/.vs/ThreeShape.SilverLake.Experiments.SIL165
-/ThreeShape.SilverLake.Experiments.SIL165/ThreeShape.SilverLake.Experiments.SIL165/bin/Debug/net6.0
-/ThreeShape.SilverLake.Experiments.SIL165/ThreeShape.SilverLake.Experiments.SIL165/obj
