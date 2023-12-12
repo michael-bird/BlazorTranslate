@@ -8,7 +8,7 @@ namespace BlazorTranslation.Translation
 {
     public class BlazorStringLocalizerFactory : IStringLocalizerFactoryFromCulture
     {
-        private string ResourcesPath { get; }
+        public string ResourcesPath { get; }
 
         public BlazorStringLocalizerFactory(IOptions<LocalizationOptions> options)
         {
